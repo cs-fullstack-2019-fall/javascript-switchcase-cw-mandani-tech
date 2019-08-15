@@ -6,31 +6,31 @@
 // Create a switch case that prints 1 if you enter 1, 2 if you enter 2,
 // 3 if you enter 3, 4 if you enter 4, and 5 if you enter 5.
 
-// var menuUser = prompt("Enter a number to print: \n 1. To print '1'\n 2. To print '2'\n 3. To print 3\n 4.To print '4' or \n5.To print '5'");
-//
-//
-// switch (menuUser)
-// {
-//     case "1":
-//
-//         alert("You choose to print '1'");
-//         break;
-//     case "2":
-//         alert("You choose to print '2'");
-//         break;
-//     case "3":
-//         alert("You choose to print '3'");
-//         break;
-//     case "4":
-//         alert("You choose to print '4'");
-//         break;
-//     case "5":
-//         alert("You choose to print '5'");
-//         break;
-//     default:
-//         alert("wrong choice");
-//
-// }
+var menuUser = prompt("Enter a number to print: \n 1. To print '1'\n 2. To print '2'\n 3. To print 3\n 4.To print '4' or \n5.To print '5'");
+
+
+switch (menuUser)
+{
+    case "1":
+
+        alert("You choose to print '1'");
+        break;
+    case "2":
+        alert("You choose to print '2'");
+        break;
+    case "3":
+        alert("You choose to print '3'");
+        break;
+    case "4":
+        alert("You choose to print '4'");
+        break;
+    case "5":
+        alert("You choose to print '5'");
+        break;
+    default:
+        alert("wrong choice");
+
+}
 
 
 //
@@ -43,7 +43,7 @@
 
 
 var enterBinaryNumber = prompt("Enter a 3 digit binary number to print:\n1. To print '1'\n2. To print '2'\n3. To print '3'\n4.To print '4'\n5.To print '5'");
-
+// make sure to update your prompt when you copy paste
 
 switch (enterBinaryNumber)
 {
@@ -77,37 +77,37 @@ switch (enterBinaryNumber)
 //
 
 
-var attendlist =[];
+// var attendlist =[];
 
-for (i=1; i<= 5;i++)
-{
-var menuUsrOpt = prompt("Enter your options here\n 1. Press 1 for teacher\n2. Press 2 for student\n3. Press 3 for parent\n");
+// for (i=1; i<= 5;i++)
+// {
+// var menuUsrOpt = prompt("Enter your options here\n 1. Press 1 for teacher\n2. Press 2 for student\n3. Press 3 for parent\n");
 
 
-switch (menuUsrOpt)
-{
-    case "1":
+// switch (menuUsrOpt)
+// {
+//     case "1":
 
-        alert("You choose to check in as Teacher");
-        attendlist=["Teacher"];
+//         alert("You choose to check in as Teacher");
+//         attendlist=["Teacher"];
 
-        break;
-    case "2":
-        alert("You choose to check in as Student");
-        attendlist=["Student"];
-        break;
-    case "3":
-        alert("You choose to check in as Parent");
-        attendlist=["Parent"];
-        break;
+//         break;
+//     case "2":
+//         alert("You choose to check in as Student");
+//         attendlist=["Student"];
+//         break;
+//     case "3":
+//         alert("You choose to check in as Parent");
+//         attendlist=["Parent"];
+//         break;
 
-    default:
-        alert("wrong choice");
-}
+//     default:
+//         alert("wrong choice");
+// }
 
-console.log (attendlist);
+// console.log (attendlist);
 
-}
+// }
 
 
 
